@@ -14,7 +14,7 @@ output [4:0]  blue
 
 );
 
-wire display_on;
+wire clk_vga;
 wire [9:0] hpos;
 wire [9:0] vpos;
 wire [2:0] rgb;
@@ -23,7 +23,6 @@ assign  LED = 4'b1010;
 
 clk_vga_25m clk_vga_25m_0 (
   .clk_out1(clk_vga),
-  .clk_out2(clk_sys),
   .reset(RST), 
   .locked(),
   .clk_in1(CLK)
