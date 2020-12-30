@@ -1,4 +1,4 @@
-LSFR.vはダミーファイルです。
+LFSR.vはダミーファイルです。
 
 以下のURLのコードLFSR.vをコピペしたうえで、18行目を
 　module lfsr #(parameter NUM_BITS = 8)
